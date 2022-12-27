@@ -2,14 +2,16 @@
 some lodash methods
 
 
-_.clamp (number, [lower], upper): Clamps number within the inclusive lower and upper bounds.
-Arguments
-number (number): The number to clamp.
-[lower] (number): The lower bound.
-upper (number): The upper bound.
+# **_.clamp (number, [lower], upper):**
+## Clamps number within the inclusive lower and upper bounds.
+
+## Arguments
+**number (number)** : The number to clamp.
+**[lower] (number)**: The lower bound.
+**upper (number)**: The upper bound.
 Returns
-(number): Returns the clamped number.
-Example
+**(number)**: Returns the clamped number.
+## **Example**
 _.clamp(-10, -5, 5);
 // => -5
  
@@ -19,14 +21,15 @@ _.clamp(10, -5, 5);
 
 
 
-_.inRange ([start=0], end, [step=1]) : Checks if n is between start and up to, but not including, end. If end is not specified, it's set to start with start then set to 0. If start is greater than end the params are swapped to support negative ranges.
-Arguments
-number (number): The number to check.
-[start=0] (number): The start of the range.
-end (number): The end of the range.
+# **_.inRange ([start=0], end, [step=1]) :**
+## Checks if n is between start and up to, but not including, end. If end is not specified, it's set to start with start then set to 0. If start is greater than end the params are swapped to support negative ranges.
+## Arguments
+**number (number)**: The number to check.
+**[start=0] (number)**: The start of the range.
+**end (number)**: The end of the range.
 Returns
-(boolean): Returns true if number is in the range, else false.
-Example
+## **(boolean)**: Returns true if number is in the range, else false.
+## **Example**
 _.range(4);
 // => [0, 1, 2, 3]
  
@@ -39,7 +42,8 @@ _.range(1, 5);
 
 
 
-_.words ([string=''], [pattern]): Splits string into an array of its words.
+# **_.words ([string=''], [pattern]):** 
+## Splits string into an array of its words.
 Arguments
 [string=''] (string): The string to inspect.
 [pattern] (RegExp|string): The pattern to match words.

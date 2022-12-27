@@ -1,0 +1,22 @@
+{
+  "name": "userpersona-utils",
+  "version": "1.0.0",
+  "description": "library with some utils-methods",
+  "main": "_.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userpersona/lodashmethods.git"
+  },
+  "author": "@userpersona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/userpersona/lodashmethods/issues"
+  },
+  "homepage": "https://github.com/userpersona/lodashmethods#readme"
+}
