@@ -1,2 +1,2 @@
 # lodashmethods
-somo lodash methods
+some lodash methods
