@@ -12,6 +12,7 @@ some lodash methods
 Returns
 **(number)**: Returns the clamped number.
 ## **Example**
+
 _.clamp(-10, -5, 5);
 // => -5
  
@@ -30,6 +31,7 @@ _.clamp(10, -5, 5);
 Returns
 **(boolean)**: Returns true if number is in the range, else false.
 ## **Example**
+
 _.range(4);
 // => [0, 1, 2, 3]
  
@@ -50,11 +52,13 @@ _.range(1, 5);
 Returns
 **(Array)**: Returns the words of string.
 ## **Example**
+
 _.words('fred, barney, & pebbles');
 // => ['fred', 'barney', 'pebbles']
  
 _.words('fred, barney, & pebbles', /[^, ]+/g);
 // => ['fred', 'barney', '&', 'pebbles']
+
 
 
 
@@ -70,11 +74,13 @@ Returns
 **(string)**: Returns the padded string.
 
 ## **Example**
+
 _.pad('abc', 8);
 // => '  abc   '
  
 _.pad('abc', 8, '_-');
 // => '_-abc_-_'
+
 
 
 
@@ -89,6 +95,7 @@ Returns
 **(boolean)**: Returns true if path exists, else false.
 
 ## **Example**
+
 var object = { 'a': { 'b': 2 } };
 var other = _.create({ 'a': _.create({ 'b': 2 }) });
  
@@ -110,10 +117,12 @@ Returns
 **(Object)**: Returns the new inverted object.
 
 ## **Example**
+
 var object = { 'a': 1, 'b': 2, 'c': 1 };
  
 _.invert(object);
 // => { '1': 'c', '2': 'b' }
+
 
 
 
@@ -128,6 +137,7 @@ Returns
 **(*)**: Returns the key of the matched element, else undefined.
 
 ## **Example**
+
 var users = {
   'barney':  { 'age': 36, 'active': true },
   'fred':    { 'age': 40, 'active': false },
@@ -154,6 +164,7 @@ Returns
 **(Array)**: Returns the slice of array.
 
 ## **Example**
+
 _.drop([1, 2, 3]);
 // => [2, 3]
  
@@ -162,6 +173,7 @@ _.drop([1, 2, 3], 2);
  
 _.drop([1, 2, 3], 5);
 // => []
+
 
 
 
@@ -176,6 +188,7 @@ Returns
 **(Array)**: Returns the slice of array.
 
 ## **Example**
+
 var users = [
   { 'user': 'barney',  'active': false },
   { 'user': 'fred',    'active': false },
@@ -198,6 +211,7 @@ Returns
 **(Array)**: Returns the new array of chunks.
 
 ## **Example**
+
 _.chunk(['a', 'b', 'c', 'd'], 2);
 // => [['a', 'b'], ['c', 'd']]
  
