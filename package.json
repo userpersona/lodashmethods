@@ -1,6 +1,6 @@
 {
   "name": "userpersona-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "library with some utils-methods",
   "main": "_.js",
   "directories": {
