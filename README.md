@@ -1,9 +1,9 @@
-# lodashmethods
-some lodash methods
+# userPersona first library
+(some lodash methods)
 
 
 # **_.clamp (number, [lower], upper):**
-## Clamps number within the inclusive lower and upper bounds.
+## Clamps allows you to select a number within two conditions, the upper and the lower, if the number that you want to clamp is lower than the lowest number it will return the lower. if it is bigger than the upper number it will return the upper number.
 
 ## Arguments
 **number (number)** : The number to clamp.
@@ -11,6 +11,7 @@ some lodash methods
 **upper (number)**: The upper bound.
 Returns
 **(number)**: Returns the clamped number.
+
 ## **Example**
 
 _.clamp(-10, -5, 5);
@@ -23,11 +24,14 @@ _.clamp(10, -5, 5);
 
 
 # **_.inRange ([start=0], end, [step=1]) :**
-## Checks if n is between start and up to, but not including, end. If end is not specified, it's set to start with start then set to 0. If start is greater than end the params are swapped to support negative ranges.
+## In range can take two parameters, start (wich by default is zero) and end, and the number to check. inRange returns a boolean. if the numbers between zero or start to up to end number, but not including end. If start is not specified and the end number is lower than zero the range will be swapped to support negative numbers
+
 ## Arguments
+
 **number (number)**: The number to check.
 **[start=0] (number)**: The start of the range.
 **end (number)**: The end of the range.
+
 Returns
 **(boolean)**: Returns true if number is in the range, else false.
 ## **Example**
@@ -45,8 +49,11 @@ _.range(1, 5);
 
 
 # **_.words ([string=''], [pattern]):** 
-## Splits string into an array of its words.
+
+## returns string into an array of its words.
+
 ## Arguments
+
 [string=''] (string): The string to inspect.
 [pattern] (RegExp|string): The pattern to match words.
 Returns
@@ -64,6 +71,7 @@ _.words('fred, barney, & pebbles', /[^, ]+/g);
 
 
 # _.pad ([string=''], [length=0], [chars=' ']) :
+
 ## Pads string on the left and right sides if it's shorter than length. Padding characters are truncated if they can't be evenly divided by length.
 
 ## Arguments
@@ -89,6 +97,7 @@ _.pad('abc', 8, '_-');
 ## Checks if path is a direct property of object.
 
 ## Arguments
+
 **object (Object)**: The object to query.
 **path (Array|string)**: The path to check.
 Returns
@@ -109,9 +118,11 @@ _.has(object, 'a.b');
 
 
 # _.invert (object):
+
 ## Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
 
 ## Arguments
+
 **object (Object)**: The object to invert.
 Returns
 **(Object)**: Returns the new inverted object.
@@ -128,6 +139,7 @@ _.invert(object);
 
 
 # _.findKey (object, [predicate=_.identity]) :
+
 ## This method is like _.find except that it returns the key of the first element predicate returns truthy for instead of the element itself.
 
 ## Arguments
@@ -155,6 +167,7 @@ _.findKey(users, { 'age': 1, 'active': true });
 
 
 # _.drop(array, [n=1]) :
+
 ## Creates a slice of array with n elements dropped from the beginning.
 
 ## Arguments
